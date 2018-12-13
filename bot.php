@@ -65,21 +65,6 @@ while($row = $query->fetch_assoc()){
 }
 //upload image section
 
-//
-/* แบบเก่า
-//ติดต่อdatabase
-$hostname = "localhost";  
-$database = "sputtme_minipro";  
-$username = "sputtme_minipro";  
-$password = "123456";  
-$conn = mysql_connect($hostname, $username, $password);
-if(!$conn){
-    die("Connection failed: " . mysql_connect_error());
-}
-echo "Connected successfully";
-
-mysql_query("use $database");
-*/  
 //Messaging API
 
 
